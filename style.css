@@ -1,0 +1,98 @@
+body {
+  background: #eee;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+  height: 40px;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+nav > a {
+  color: purple;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav > a:last-child {
+  margin-right: 0;
+}
+
+nav > a:hover {
+  color: rgb(83, 5, 83);
+}
+
+main.wrapper {
+  background: white;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 1em;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+form[name="add"] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.block {
+  width: 50%;
+  margin: 0.5em 0;
+}
+
+.block:nth-child(odd) {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+.block > input {
+  width: 100%;
+  height: 2em;
+  box-sizing: border-box;
+}
+
+.block > button {
+  height: 2.4em;
+  background: purple;
+  border: 0;
+  padding: 0 2em;
+  font-size: 0.8em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.notification {
+  background: #eee;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px solid #888;
+}
